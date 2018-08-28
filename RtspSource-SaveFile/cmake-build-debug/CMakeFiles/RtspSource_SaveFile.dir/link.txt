@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RtspSource_SaveFile.dir/main.cpp.o  -o RtspSource_SaveFile  -L/home/a4004923/Develop/Code/Github/FFmpeg-sample/RtspSource-SaveFile/../fflib/lib -Wl,-rpath,/home/a4004923/Develop/Code/Github/FFmpeg-sample/RtspSource-SaveFile/../fflib/lib -lavfilter -lavcodec -lavdevice -lavutil -lavformat -lswresample -lswscale 

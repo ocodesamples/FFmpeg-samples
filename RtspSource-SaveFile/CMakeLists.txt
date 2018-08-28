@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.12)
+project(RtspSource_SaveFile)
+
+include_directories(../fflib/include)
+link_directories(../fflib/lib)
+#MESSAGE(${PROJECT_SOURCE_DIR}../fflib/lib)
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(RtspSource_SaveFile main.cpp)
+target_link_libraries(RtspSource_SaveFile libavfilter.so)
+target_link_libraries(RtspSource_SaveFile libavcodec.so)
+target_link_libraries(RtspSource_SaveFile libavdevice.so)
+target_link_libraries(RtspSource_SaveFile libavutil.so)
+target_link_libraries(RtspSource_SaveFile libavformat.so)
+target_link_libraries(RtspSource_SaveFile libswresample.so)
+target_link_libraries(RtspSource_SaveFile libswscale.so)
